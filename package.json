@@ -1,0 +1,22 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "description": "data移行テスト",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamutuna/alice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamutuna/alice/issues"
+  },
+  "homepage": "https://github.com/hamutuna/alice#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
