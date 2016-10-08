@@ -2,9 +2,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    //javascript: "./src/index.js",
+    javascript: "./src/app.js",
     html: "./src/index.html",
-    css: "./src/style.scss",
   },
   output: {
     path: path.join(__dirname, 'public'),
