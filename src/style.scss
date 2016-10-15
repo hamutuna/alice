@@ -23,14 +23,20 @@
   z-index: 2;
 }
 
+.loading-text {
+  color: #000;
+}
+
+#wrap {
+  background: #FFD5F3 url('./images/moonandcat.png') no-repeat fixed left;
+  background-size: cover;
+}
 
 html{
 	font-size: 62.5%;
 }
 
 body{
-	background: #FFD5F3 url('./images/moonandcat.png') no-repeat fixed left;
-	background-size: cover;
 	font-size: 1.4rem;/*これなにに使っとんか？*/
  /*fontファミリーはなぜhtmlタグに書き込まないの?*/
 	font-family: Monoton, cursive,'Noto Sans JP',sans-serif;
