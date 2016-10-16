@@ -2,80 +2,89 @@
 
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
-	<title>不思議の国のアリス</title>
-	<script type="text/javascript" src="bundle.js"></script>
-	<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra+Display'>-->
-	<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra:700italic,400italic'>-->
-	<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra:400,700'>-->
-	<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Monoton'>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
-
-	<!--<link rel="stylesheet" href="reset.css">-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+		<title>不思議の国のアリス</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="bundle.js"></script><!--これどこにあるんだ？-->
+		<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra+Display'>-->
+		<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra:700italic,400italic'>-->
+		<!--<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Almendra:400,700'>-->
+		<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Monoton'>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+		<!--<link rel="stylesheet" href="reset.css">-->
 	</head>
 	<body>
-		<header class="header">
-			<h1>Alice in Wonderland</h1>
-			<!--<h1>不思議の国のアリス</h1>-->
-
-		<!--<img src="./src/images/moonandcat.png" alt="top画">-->
-			<img class="top" src="./src/images/rabbitalice.png" alt="rabbitalice"/>
-			<!--<img class="top" src="./src/images/aliceusagi.png" alt="aliceusagi"/>-->
-		</header>
-
-		<div class="wrapper">
-			<h2>CONTENT</h2>
-			<section class="s1">
-				<h3>おねいさんと日向ぼっこ</h3>
-				<img  class="s1-1"src="./src/images/11P.jpg" alt="お姉さんと野原で遊ぶ"/>
-			</section>
-
-			<section class="s2">
-				<h3>うさぎを見つけ、追いかける</h3>
-				<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
-			</section>
-
-			<section class="s3">
-				<h3>穴に落ちる</h3>
-				<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
-			</section>
-
-			<section class="section">
-				<!--<img  class="con1"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>-->
-				<img  class="con1"src="./src/images/o1.png" alt="アリス大泣きする"/>
-				<p class="tex1">机にあった小瓶を飲んでしまい、</br>
-					体が大きくなり、泣き出す。</br>そして部屋一面が湖になる。</p>
-			</section>
-			<section class="section">
-				<img  class="con2"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
-			<section class="section">
-				<img  class="con3"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
-			<section class="section">
-				<img  class="con4"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
-			<section class="section">
-				<img  class="con5"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
-			<section class="section">
-				<img  class="con6"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
-			<section class="section">
-			<img  class="con7"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
-			</section>
+		<div id="loader-bg">
+		  <div id="loader">
+		    <img src="./src/images/rabbitalice.png" width="198" height="123" alt="Now Loading..."/>
+		    <p class="loading-text">Now Loading...</p>
+		  </div>
 		</div>
+		<div id="wrap" class="bg">
+  			ロード後に表示させたい内容
+			<header class="header">
+				<h1>Alice in Wonderland</h1>
+				<!--<h1>不思議の国のアリス</h1>-->
 
-		<section class="s16">
-			<h3>アリス、野原に戻る</h3>
-			<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
-			<img class="s1-1" src="./src/images/11P.jpg" alt="野原行く"/>
-		</section>
+			<!--<img src="./src/images/moonandcat.png" alt="top画">-->
+				<img class="top" src="./src/images/rabbitalice.png" alt="rabbitalice"/>
+				<!--<img class="top" src="./src/images/aliceusagi.png" alt="aliceusagi"/>-->
+			</header>
 
-		<footer class="footer">
-			<small>&copy; 2016 NatsumiTsunoda</small>
-		</footer>
+			<div class="wrapper">
+				<h2>CONTENT</h2>
+				<section class="s1">
+					<h3>おねいさんと日向ぼっこ</h3>
+					<img  class="s1-1"src="./src/images/11P.jpg" alt="お姉さんと野原で遊ぶ"/>
+				</section>
+
+				<section class="s2">
+					<h3>うさぎを見つけ、追いかける</h3>
+					<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
+				</section>
+
+				<section class="s3">
+					<h3>穴に落ちる</h3>
+					<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
+				</section>
+
+				<section class="section">
+					<!--<img  class="con1"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>-->
+					<img  class="con1"src="./src/images/o1.png" alt="アリス大泣きする"/>
+					<p class="tex1">机にあった小瓶を飲んでしまい、</br>
+						体が大きくなり、泣き出す。</br>そして部屋一面が湖になる。</p>
+				</section>
+				<section class="section">
+					<img  class="con2"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+				<section class="section">
+					<img  class="con3"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+				<section class="section">
+					<img  class="con4"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+				<section class="section">
+					<img  class="con5"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+				<section class="section">
+					<img  class="con6"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+				<section class="section">
+				<img  class="con7"src="./src/images/O2_numa.png" alt="アリス大泣きする"/>
+				</section>
+			</div>
+
+			<section class="s16">
+				<h3>アリス、野原に戻る</h3>
+				<p>あそぶあそぶあそぶあそぶあそぶあそぶあそぶあそぶ</p>
+				<img class="s1-1" src="./src/images/11P.jpg" alt="野原行く"/>
+			</section>
+
+			<footer class="footer">
+				<small>&copy; 2016 NatsumiTsunoda</small>
+			</footer>
+		</div><!--#wrap-->
 
 	</body>
 </html>
