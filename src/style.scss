@@ -92,7 +92,7 @@ li{
 	margin-left: auto;
 }
 
-.s1{
+/*.s1{
 	background-color: #f0f8ff;
 	background-size: contain;
 	padding: 170px 0px 80px;
@@ -108,18 +108,25 @@ li{
 	background-color: #e0ffff;
 	background-size: contain;
 	padding: 80px 0px 80px;
-}
+}*/
 
 .warapper{
 
 }
 
 .section{
-/*	position: relative;*/
-padding:0 80px;
-
-
+padding:0 80px;/*これなんのためにいれてるの？*/
+position: absolute;
+animation: moveY 2s infinite alternate linear;
+/*margin-top:2000px;*/
 }
+
+@keyframes moveY {
+0% {top:0px;}
+50% {top:30px;}
+100% {top:0px;}
+}
+
 
 .con1{
 	position: relative;
@@ -140,6 +147,14 @@ padding:0 80px;
 	position: relative;
 	top:-43vh;
 	left:58vw;
+}
+
+.tex2{
+  /*text-align: center;*/
+  position: relative;
+  top:-48vh;
+  left:58vw;
+
 }
 
 .con3{
@@ -172,21 +187,20 @@ padding:0 80px;
 	left:5vw;
 }
 
-.s16{
+/*.s16{
 	padding: 80px 0px 80px;
 	margin-top: 100px;
 	background-color: #e0ffff;
 	background-size: contain;
-}
+}*/
 
-footer{
+/*footer{
 	background-color: #fff;
 	background-size: contain;
 	padding: 12px 0px;
-	position: relative;
-	bottom: -80vh;
+	position: absolute;
 	font-size: 2rem;
-}
+}*/
 
 
 /* --------------------------------
