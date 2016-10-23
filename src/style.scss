@@ -119,15 +119,16 @@ li{
   animation: moveY 2s infinite alternate ease;
 }
 
+.section:nth-child(2) {
+  animation-delay: 2s;
+}
+
 @keyframes moveY {
   0% {
     margin-top: 0px;
   }
-  50% {
-    margin-top: -30px;
-  }
   100% {
-    margin-top: 0px;
+    margin-top: -30px;
   }
 }
 
