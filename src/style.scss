@@ -54,7 +54,7 @@ img{
 
 h1{
 	font-size:8.6rem;
-	color: black;
+	color: #fff;
 	/*font-weight: 900;*/
 	position: relative;
 	top: 12vh;
@@ -84,7 +84,7 @@ li{
 }
 
 .header{
-	background-color: #fff;
+	/*background-color: #fff;*/
 	background-size: contain;
 }
 
@@ -115,10 +115,21 @@ li{
 }
 
 .section{
-/*	position: relative;*/
-padding:0 80px;
+padding: 0 80px;/*これなんのためにいれてるの？*/
+animation: moveY 2s infinite alternate ease;
+}
 
+section:nth-child(2) {
+animation-delay: 2s;
+}
 
+@keyframes moveY {
+0% {
+  margin-top: 0px;
+  }
+  100% {
+    margin-top: -30px;
+  }
 }
 
 .con1{
@@ -184,7 +195,6 @@ footer{
 	background-size: contain;
 	padding: 12px 0px;
 	position: relative;
-	bottom: -80vh;
 	font-size: 2rem;
 }
 
