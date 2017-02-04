@@ -1,0 +1,32 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "description": "data移行テスト",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamutuna/alice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamutuna/alice/issues"
+  },
+  "homepage": "https://github.com/hamutuna/alice#readme",
+  "devDependencies": {
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1"
+  }
+}
