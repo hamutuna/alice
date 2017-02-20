@@ -1,5 +1,3 @@
-require("./style.scss");
-
 $(function() {
   var h = $(window).height();
 
