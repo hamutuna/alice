@@ -3,7 +3,7 @@ var gulpLoadPlugins = require("gulp-load-plugins");
 var $ = gulpLoadPlugins();
 
 gulp.task("webserver", function() {
-  gulp.src("./")
+  gulp.src("./dest/views")
     .pipe($.webserver({
       host: '0.0.0.0',
       livereload: true,
