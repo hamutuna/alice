@@ -163,50 +163,8 @@ footer{
 
 
 }
-@media (max-width: 732px) {
 
-	h1{
-		font-size:4.2rem;
-		position: relative;
-		z-index: 2;
-		/*text-align: center;*/
-	}
-
-	h2{
-		font-size: 3rem;
-	}
-
-	.square{
-		visibility: hidden;
-		display: none;
-	}
-
-	.wrapper{
-	  padding-bottom:  20vh;
-    margin-top: 8vh;
-	}
-
-	.wrapper:after{
-		visibility: hidden;
-		display: none;
-
-	}
-
-	h3{
-		font-size: 1.6rem;
-	}
-
-	.reco{
-	  font-size: 2rem;
-	  }
-
-	.reason{
-		font-size: 1.5rem;
-		}
-
-}
-
-@media (max-width: 414px) {
+@media (max-width: 768px) {
 	.top{
 		visibility: hidden;
 	}
