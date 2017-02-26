@@ -36,9 +36,6 @@ h2{
 h3{
 	font-size: 2.6rem;
 	color: #fff;
-	margin-top: -198px;
-	text-align: center;
-	padding-right: 53vw;
 }
 
 
@@ -80,15 +77,18 @@ margin-left: 10vw;
   border-color: transparent transparent #fff #fff;
   border-style: solid;
   border-width: 51px 51px 51px 51px;
-  bottom: 133px;
+  bottom: 236px;
   position: absolute;
-  right: 59px;
+  right: 57px;
   box-shadow:-5px 5px 5px 0px #e5e5e5;
 }
 
+.recostarbox{
+	display: flex;
+  align-items: baseline;
+}
+
 .recobox{
-  margin-left: 26vw;
-  margin-top: -11vh;
 }
 
 .reco{
@@ -97,55 +97,40 @@ margin-left: 10vw;
   margin-left: 1vw;
   }
 
-  .book{
-  /*	margin: 58px 0px -11px 40px;*/
+	.book1{
+	  background: url('../assets/book-back.png') no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 600px;
+		margin-bottom: 16vh;
+	}
+
+a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+  /*.book{
 	width:50%;
 	max-width: 50%;
 	height: auto;
   display: flex;
   justify-content: center;
   margin-left: 10vw;
-  }
+}*/
 
-/*.storytitle{
-	width:30%;
-	max-width: 50%;
+.storytitle{
+	width:50%;
 	height: auto;
-	display: flex;
-	justify-content: center;
-	margin-left: 10vw;
-	margin-top: -10vh;
-}*/
-
-
-.book1{
-/*  background: url('../assets/book-clear.png') no-repeat;*/
-/*  width: 501px;*/
-/*  height: 348px;*/
-margin-bottom: 16vh;
 }
-
-/*.book1 a{
-  display: block;
-}*/
-
-/*.book1 img{
-  border: none;
-}*/
-
-/*.book1 a:hover{
-  background: none;
-}*/
-
-/*.book1 a:hover img{
-  visibility: hidden;
-}*/
 
 .reason{
 	color: #fff;
 	font-weight: 500;
 	font-size: 2.5rem;
-	padding-left: 15vw;
 }
 
 .book2{
@@ -267,12 +252,12 @@ footer{
 		display: none;
 	}
 
-	.book{
+	/*.book{
 		width:100%;
 		max-width: 100%;
 		height: auto;
 		margin-left: 0vw;
-  }
+  }*/
 
 	.book2{
 	  padding-top:0vh;
