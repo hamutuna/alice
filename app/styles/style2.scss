@@ -165,13 +165,6 @@ footer{
 }
 @media (max-width: 732px) {
 
-	.top{
-		position: relative;
-		width: 100px;
-		height: 80px;
-		z-index: 1;
-	}
-
 	h1{
 		font-size:4.2rem;
 		position: relative;
@@ -201,17 +194,6 @@ footer{
 
 	h3{
 		font-size: 1.6rem;
-		margin-top: -106px;
-		text-align: left;
-		padding-left: 14vw;
-		padding-right: 0vw;
-	}
-
-	.recobox{
-		margin-left: 0vw;
-    text-align: center;
-		margin-top: -38px;
-    padding-right: 3vw;
 	}
 
 	.reco{
@@ -220,8 +202,6 @@ footer{
 
 	.reason{
 		font-size: 1.5rem;
-		padding-left: 13vw;
-		text-align: left;
 		}
 
 }
@@ -252,12 +232,9 @@ footer{
 		display: none;
 	}
 
-	/*.book{
-		width:100%;
-		max-width: 100%;
-		height: auto;
-		margin-left: 0vw;
-  }*/
+	.book1{
+    height: 300px;
+	}
 
 	.book2{
 	  padding-top:0vh;
@@ -265,17 +242,6 @@ footer{
 
 	h3{
 		font-size: 1.6rem;
-		margin-top: -106px;
-		text-align: left;
-		padding-left: 6vw;
-		padding-right: 0vw;
-	}
-
-	.recobox{
-		margin-left: 0vw;
-    text-align: right;;
-		margin-top: -38px;
-    padding-right: 3vw;
 	}
 
 	.reco{
@@ -284,8 +250,6 @@ footer{
 
 	.reason{
 		font-size: 1.5rem;
-		padding-left: 7vw;
-		text-align: center;
 		}
 
 }
