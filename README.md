@@ -1,14 +1,9 @@
-# alice
-data移行テスト
+## 開発を始める
+`npm install`
 
-# develop
-
-### run dev server
-
+## 開発する
 `npm start`
+ブラウザで `0.0.0.0:8000/` を開く
 
-### build files
-
-`npm run build`
-
-and then move `public/index.html` & `public/bundle.js` into top directory (`/`).
+## リリースする
+masterブランチで `npm run build`
